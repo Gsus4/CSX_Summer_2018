@@ -10,9 +10,4 @@
 * Install R and RStudio
 * Add HW1.Rmd
 
-<<<<<<< HEAD
 [HW1.html](https://gsus4.github.io/CSX_Summer_2018/Week_1/HW1.html)
-
-=======
-[HW1](https://gsus4.github.io/CSX_Summer_2018/Week_1/HW1.html)
->>>>>>> ba327f0cbd21bcb09b6816d003907af2c9f486d4
