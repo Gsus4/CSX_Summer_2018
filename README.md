@@ -7,3 +7,7 @@
 ## Progress Report
 ### Week 1
 * update README.md
+* Install R and RStudio
+* Add HW1.Rmd
+
+[HW1](https://gsus4.github.io/CSX_Summer_2018/Week_1/HW1.html)
