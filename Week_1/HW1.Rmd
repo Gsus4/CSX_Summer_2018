@@ -1,6 +1,6 @@
 ---
-title: "Week_1"
-author: "Chi-Yeh"
+title: "Week1_HW1"
+author: "陳麒業"
 date: "2018年7月4日"
 output: html_document
 ---
