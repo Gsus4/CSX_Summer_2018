@@ -6,12 +6,12 @@
 
 ## Progress Report
 ### Week 1
-####In Class
+#### In Class
 * 建立GitHub並編輯README.md
 * 安裝R及RStudio
 * 學習Markdown語法
 * 建立HW1.rmd
-####At Home
+#### At Home
 * 完成Datacamp上的R語言課程
 * 更新HW1.rmd
 
