@@ -6,8 +6,13 @@
 
 ## Progress Report
 ### Week 1
-* update README.md
-* Install R and RStudio
-* Add HW1.Rmd
+####In Class
+* 建立GitHub並編輯README.md
+* 安裝R及RStudio
+* 學習Markdown語法
+* 建立HW1.rmd
+####At Home
+* 完成Datacamp上的R語言課程
+* 更新HW1.rmd
 
 [HW1.html](https://gsus4.github.io/CSX_Summer_2018/Week_1/HW1.html)
