@@ -1,0 +1,56 @@
+---
+title: "Data Visualization"
+author: "陳麒業"
+date: "2018年7月11日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library("ggplot2")
+```
+
+## 中西部人口統計數據
+
+```{r }
+midwest
+```
+
+# 單變數：類別型
+
+```{r, echo=FALSE}
+ggplot(data = midwest, aes(x = category)) +
+geom_bar(fill = "steelblue", colour = "black")
+```
+
+# 單變數：連續型
+
+```{r, echo=FALSE}
+ggplot(data = midwest, aes(x = popdensity)) +
+geom_histogram(binwidth = 500, fill = "steelblue")
+```
+
+# 連續 vs 連續
+
+```{r, echo=FALSE}
+ggplot(data = midwest, aes(x = popdensity, y=poppovertyknown)) +
+geom_point()
+```
+
+# 雙變數：離散 vs 連續
+
+```{r, echo=FALSE}
+ggplot(midwest, aes(x=category, y=poppovertyknown)) +
+geom_boxplot()
+```
+
+# 多變量：中西部人口數據間的關係
+
+```{r, echo=FALSE}
+library(ggplot2)
+library(GGally)
+library(scales)
+library(memisc)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
