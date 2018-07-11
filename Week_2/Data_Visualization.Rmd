@@ -16,6 +16,10 @@ library("ggplot2")
 midwest
 ```
 
+```{r }
+summary(midwest)
+```
+
 # 單變數：類別型
 
 ```{r}
