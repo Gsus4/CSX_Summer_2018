@@ -19,6 +19,7 @@
 
 * 完成Datacamp上的R語言課程
 * 更新HW1.rmd
+
 [HW1.html](https://gsus4.github.io/CSX_Summer_2018/Week_1/HW1.html)
 
 ### Week 2
@@ -27,4 +28,4 @@
 
 * 使用ggplot2將資料視覺化
 
-[Data Visualization.html](https://gsus4.github.io/CSX_Summer_2018/Week_2/Data Visualization.html)
+[Data_Visualization.html](https://gsus4.github.io/CSX_Summer_2018/Week_2/Data_Visualization.html)
