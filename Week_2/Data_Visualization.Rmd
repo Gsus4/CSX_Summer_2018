@@ -52,8 +52,6 @@ geom_boxplot()
 
 <img src="http://pic.51yuansu.com/pic3/cover/00/96/43/58dd47ea9e2b7_610.jpg">
 
-<img src="https://i.imgur.com/ZFaycMw.gif">
-
 ### ================== 尚未完工 ==================
 
 ```{r,echo = FALSE, error = FALSE}
