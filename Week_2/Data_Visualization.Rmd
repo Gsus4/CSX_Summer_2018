@@ -50,7 +50,7 @@ geom_boxplot()
 
 # 多變量：中西部人口數據間的關係
 
-<img src="http://pic.51yuansu.com/pic3/cover/00/96/43/58dd47ea9e2b7_610.jpg">
+![img1](http://pic.51yuansu.com/pic3/cover/00/96/43/58dd47ea9e2b7_610.jpg)
 
 ### ================== 尚未完工 ==================
 
