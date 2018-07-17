@@ -23,7 +23,15 @@
 ## Week 2
 
 ### In Class
-
 * 使用ggplot2將資料視覺化
+* 利用網路爬蟲抓去PTT文章，並製作文字雲
 
-[Data_Visualization.html](https://gsus4.github.io/CSX_Summer_2018/Week_2/Data_Visualization.html)
+### At Home
+* 解決RStudio裝在C槽造成的錯誤
+* 解決TXT檔的編碼問題
+* 試圖將文字過濾得更好，但效果不大
+* 學習Tidyverse
+* 學習文字探勘及TF-IDF​
+
+[資料視覺化](https://gsus4.github.io/CSX_Summer_2018/Week_2/Data_Visualization.html)
+[文字雲](https://gsus4.github.io/CSX_Summer_2018/Week_2/TextMining.html)
