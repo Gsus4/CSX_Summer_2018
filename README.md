@@ -33,5 +33,19 @@
 * 學習Tidyverse
 * 學習文字探勘及TF-IDF​
 
-[資料視覺化](https://gsus4.github.io/CSX_Summer_2018/Week_2/Data_Visualization.html)
-[文字雲](https://gsus4.github.io/CSX_Summer_2018/Week_2/TextMining.html)
+- [資料視覺化](https://gsus4.github.io/CSX_Summer_2018/Week_2/Data_Visualization.html)
+- [文字雲](https://gsus4.github.io/CSX_Summer_2018/Week_2/TextMining.html)
+
+## Week 3
+
+### In Class
+* 學習EDA
+* 學習文字探勘的演算法，TFIDF、PCA、K-means
+
+### At Home
+* 照著Kaggle上的文章實作EDA
+* 練習及理解TFIDF,PCA,K-means
+* 完成Datacamp上的Correlation and Regression課程
+
+- [EDA:房屋價格分析](https://gsus4.github.io/CSX_Summer_2018/Week_3/HousePrice/EDA_HousePrice.html)
+- [TFIDF_PCA_K-means](https://gsus4.github.io/CSX_Summer_2018/Week_3/TFIDF_PCA_Kmeans/TFIDF_PCA_Kmeans.html)
