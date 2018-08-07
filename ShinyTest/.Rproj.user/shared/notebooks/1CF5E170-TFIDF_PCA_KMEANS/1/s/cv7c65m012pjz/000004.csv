@@ -1,0 +1,16 @@
+"0","mixseg = worker()"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","#斷詞"
+"0","jieba_tokenizer = function(d)"
+"0","{"
+"0","  unlist( segment(d[[1]], mixseg) )"
+"0","}"
+"0","seg = lapply(d.corpus, jieba_tokenizer)"
+"2","Error in lapply(d.corpus, jieba_tokenizer) : object 'd.corpus' not found
+"

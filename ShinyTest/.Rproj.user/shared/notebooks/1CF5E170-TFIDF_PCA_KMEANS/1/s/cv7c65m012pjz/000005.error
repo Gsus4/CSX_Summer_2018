@@ -1,0 +1,1 @@
+{"frames":[{"character_number":0,"end_character_number":0,"end_line_number":0,"file":"","func":"lapply(d.corpus, jieba_tokenizer)","line_number":0}],"message":"Error in lapply(d.corpus, jieba_tokenizer) : object 'd.corpus' not found\n"}

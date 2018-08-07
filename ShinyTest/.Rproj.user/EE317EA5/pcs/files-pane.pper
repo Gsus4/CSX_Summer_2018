@@ -1,0 +1,9 @@
+{
+    "path" : "~/GitHub/CSX_Summer_2018/ShinyTest/data/poem",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

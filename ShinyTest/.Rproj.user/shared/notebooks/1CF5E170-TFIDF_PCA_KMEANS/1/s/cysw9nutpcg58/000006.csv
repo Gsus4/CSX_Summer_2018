@@ -1,0 +1,11 @@
+"0","d.corpus <- Corpus( DirSource(""./data/poem"", encoding = ""UTF-8""))"
+"2","Error in inherits(x, ""Source"") : empty directory
+"
+"2","In addition: "
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"

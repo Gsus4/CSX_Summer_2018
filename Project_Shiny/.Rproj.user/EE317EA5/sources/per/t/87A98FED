@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533644720728.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "72891746",
+    "id" : "87A98FED",
+    "lastKnownWriteTime" : 1533640347,
+    "last_content_update" : 1533640347,
+    "path" : "~/GitHub/CSX_Summer_2018/ShinyTest/app.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "195,31",
+        "scrollLine" : "184"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

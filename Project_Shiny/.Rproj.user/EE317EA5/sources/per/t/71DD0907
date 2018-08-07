@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533647449036.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2881193825",
+    "id" : "71DD0907",
+    "lastKnownWriteTime" : 1533649116,
+    "last_content_update" : 1533649116323,
+    "path" : "~/GitHub/CSX_Summer_2018/Project_Shiny/poetry_analysis.R",
+    "project_path" : "poetry_analysis.R",
+    "properties" : {
+        "cursorPosition" : "279,11",
+        "scrollLine" : "265"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
