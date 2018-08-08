@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5867/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  <script type="application/shiny-singletons"></script>
+  <script type="application/html-dependencies">json2[2014.02.04];jquery[1.12.4];shiny[1.1.0];ionrangeslider[2.1.6];strftime[0.9.2];selectize[0.11.2];htmlwidgets[1.2];plotly-binding[4.8.0];bootstrap[3.3.7]</script>
+<script src="./唐詩分析_files/json2-min.js.下載"></script>
+<script src="./唐詩分析_files/jquery.min.js.下載"></script>
+<link href="./唐詩分析_files/shiny.css" rel="stylesheet">
+<script src="./唐詩分析_files/shiny.min.js.下載"></script>
+<link href="./唐詩分析_files/ion.rangeSlider.css" rel="stylesheet">
+<link href="./唐詩分析_files/ion.rangeSlider.skinShiny.css" rel="stylesheet">
+<script src="./唐詩分析_files/ion.rangeSlider.min.js.下載"></script>
+<script src="./唐詩分析_files/strftime-min.js.下載"></script>
+<link href="./唐詩分析_files/selectize.bootstrap3.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="shared/selectize/js/es5-shim.min.js"></script>
+<![endif]-->
+<script src="./唐詩分析_files/selectize.min.js.下載"></script>
+<script src="./唐詩分析_files/htmlwidgets.js.下載"></script>
+<script src="./唐詩分析_files/plotly.js.下載"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="./唐詩分析_files/bootstrap.min.css" rel="stylesheet">
+<script src="./唐詩分析_files/bootstrap.min.js.下載"></script>
+<script src="./唐詩分析_files/html5shiv.min.js.下載"></script>
+<script src="./唐詩分析_files/respond.min.js.下載"></script>  <title>唐詩分析</title>
+  <link rel="stylesheet" type="text/css" href="./唐詩分析_files/flatly.min.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <span class="navbar-brand">唐詩分析</span>
+      </div>
+      <ul class="nav navbar-nav" data-tabsetid="6904">
+        <li class="active">
+          <a href="http://127.0.0.1:5867/#tab-6904-1" data-toggle="tab" data-value="簡介">簡介</a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5867/#tab-6904-2" data-toggle="tab" data-value="文字雲">文字雲</a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5867/#tab-6904-3" data-toggle="tab" data-value="詩人常用字">詩人常用字</a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5867/#tab-6904-4" data-toggle="tab" data-value="以詩作類別分析">以詩作類別分析</a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5867/#tab-6904-5" data-toggle="tab" data-value="詩人間的關聯性">詩人間的關聯性</a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5867/#tab-6904-6" data-toggle="tab" data-value="類別間的關聯性">類別間的關聯性</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="tab-content" data-tabsetid="6904">
+      <div class="tab-pane active" data-value="簡介" id="tab-6904-1">
+        <h2>簡介</h2>
+        <br>
+        <h3>組員： 林奕均/王姿嵐/陳麒業</h3>
+        <br>
+        <br>
+        <h4>詩詞曲向來被視為文學上的瑰寶；</h4>
+        <br>
+        <h4>本次專題透過資料分析找出【唐詩】中：</h4>
+        <br>
+        <h4>【詞彙之間】、【詞彙與詩人之間】的相關性</h4>
+        <br>
+        <h4>以探討詞彙之間的關聯程度，</h4>
+        <br>
+        <h4>及作者生平、性格與常用字詞的關係。</h4>
+        <br>
+      </div>
+      <div class="tab-pane" data-value="文字雲" id="tab-6904-2">
+        <h2>唐詩三百首文字雲</h2>
+        <br>
+        <div class="col-sm-4">
+          <form class="well">
+            <div class="form-group shiny-input-container">
+              <label class="control-label" for="wc_max">字詞數量</label>
+              <span class="irs js-irs-0  irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min">1</span><span class="irs-max">50</span><span class="irs-from" style="visibility: hidden;">0</span><span class="irs-to" style="visibility: hidden;">0</span><span class="irs-single">0</span></span><span class="irs-grid"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%">1</span><span class="irs-grid-pol small" style="left: 6.802721088435375%"></span><span class="irs-grid-pol small" style="left: 3.4013605442176873%"></span><span class="irs-grid-pol" style="left: 10.204081632653061%"></span><span class="irs-grid-text js-grid-text-1" style="left: 10.2041%; visibility: hidden;">6</span><span class="irs-grid-pol small" style="left: 17.006802721088434%"></span><span class="irs-grid-pol small" style="left: 13.60544217687075%"></span><span class="irs-grid-pol" style="left: 20.408163265306122%"></span><span class="irs-grid-text js-grid-text-2" style="left: 20.4082%; visibility: hidden;">11</span><span class="irs-grid-pol small" style="left: 27.210884353741495%"></span><span class="irs-grid-pol small" style="left: 23.80952380952381%"></span><span class="irs-grid-pol" style="left: 30.612244897959183%"></span><span class="irs-grid-text js-grid-text-3" style="left: 30.6122%; visibility: hidden;">16</span><span class="irs-grid-pol small" style="left: 37.414965986394556%"></span><span class="irs-grid-pol small" style="left: 34.01360544217687%"></span><span class="irs-grid-pol" style="left: 40.816326530612244%"></span><span class="irs-grid-text js-grid-text-4" style="left: 40.816326530612244%">21</span><span class="irs-grid-pol small" style="left: 47.61904761904761%"></span><span class="irs-grid-pol small" style="left: 44.21768707482993%"></span><span class="irs-grid-pol" style="left: 51.0204081632653%"></span><span class="irs-grid-text js-grid-text-5" style="left: 51.0204%; visibility: hidden;">26</span><span class="irs-grid-pol small" style="left: 57.82312925170068%"></span><span class="irs-grid-pol small" style="left: 54.42176870748299%"></span><span class="irs-grid-pol" style="left: 61.224489795918366%"></span><span class="irs-grid-text js-grid-text-6" style="left: 61.2245%; visibility: hidden;">31</span><span class="irs-grid-pol small" style="left: 68.02721088435374%"></span><span class="irs-grid-pol small" style="left: 64.62585034013605%"></span><span class="irs-grid-pol" style="left: 71.42857142857143%"></span><span class="irs-grid-text js-grid-text-7" style="left: 71.4286%; visibility: hidden;">36</span><span class="irs-grid-pol small" style="left: 78.2312925170068%"></span><span class="irs-grid-pol small" style="left: 74.82993197278911%"></span><span class="irs-grid-pol" style="left: 81.63265306122449%"></span><span class="irs-grid-text js-grid-text-8" style="left: 81.63265306122449%">41</span><span class="irs-grid-pol small" style="left: 88.43537414965986%"></span><span class="irs-grid-pol small" style="left: 85.03401360544217%"></span><span class="irs-grid-pol" style="left: 91.83673469387755%"></span><span class="irs-grid-text js-grid-text-9" style="left: 91.8367%; visibility: hidden;">46</span><span class="irs-grid-pol small" style="left: 97.27891156462584%"></span><span class="irs-grid-pol small" style="left: 94.5578231292517%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-10" style="left: 100%; visibility: hidden;">50</span></span><span class="irs-bar"></span><span class="irs-bar-edge"></span><span class="irs-shadow shadow-single"></span><span class="irs-slider single"></span></span><input class="js-range-slider irs-hidden-input shiny-bound-input" id="wc_max" data-min="1" data-max="50" data-from="30" data-step="1" data-grid="true" data-grid-num="9.8" data-grid-snap="false" data-prettify-separator="," data-prettify-enabled="true" data-keyboard="true" data-data-type="number" tabindex="-1" readonly="">
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-8">
+          <div id="WordCloud_1" class="shiny-plot-output shiny-bound-output" style="width: 100% ; height: 400px"></div>
+        </div>
+      </div>
+      <div class="tab-pane" data-value="詩人常用字" id="tab-6904-3">
+        <h2>詩人常用字統計</h2>
+        <br>
+        <div class="col-sm-4">
+          <form class="well">
+            <div class="form-group shiny-input-container">
+              <label class="control-label" for="author_1">詩人:</label>
+              <div>
+                <select id="author_1" tabindex="-1" class="selectized shiny-bound-input" style="display: none;"><option value="元稹" selected="selected">元稹</option></select><div class="selectize-control single"><div class="selectize-input items full has-options has-items"><div data-value="元稹" class="item">元稹</div><input type="text" autocomplete="off" tabindex="" style="width: 4px;"></div><div class="selectize-dropdown single" style="display: none;"><div class="selectize-dropdown-content"></div></div></div>
+                <script type="application/json" data-for="author_1" data-nonempty="">{}</script>
+              </div>
+            </div>
+            <hr>
+            <span class="help-block">列出這位詩人最常用的詞</span>
+          </form>
+        </div>
+        <div class="col-sm-8">
+          <div id="Plot_1" class="shiny-plot-output shiny-bound-output" style="width: 100% ; height: 400px"></div>
+        </div>
+      </div>
+      <div class="tab-pane" data-value="以詩作類別分析" id="tab-6904-4">
+        <h2>以詩作類別統計</h2>
+        <br>
+        <div class="col-sm-4">
+          <form class="well">
+            <div class="form-group shiny-input-container">
+              <label class="control-label" for="tag_1">詩作類別:</label>
+              <div>
+                <select id="tag_1" tabindex="-1" class="selectized shiny-bound-input" style="display: none;"><option value="寫景" selected="selected">寫景</option></select><div class="selectize-control single"><div class="selectize-input items full has-options has-items"><div data-value="寫景" class="item">寫景</div><input type="text" autocomplete="off" tabindex="" style="width: 4px;"></div><div class="selectize-dropdown single" style="display: none;"><div class="selectize-dropdown-content"></div></div></div>
+                <script type="application/json" data-for="tag_1" data-nonempty="">{}</script>
+              </div>
+            </div>
+            <hr>
+            <span class="help-block">列出此類別的詩作最常用的詞，以及詩人的詩作數量</span>
+          </form>
+        </div>
+        <div class="col-sm-8">
+          <div id="Plot_2" class="shiny-plot-output shiny-bound-output" style="width: 100% ; height: 400px"></div>
+          <div id="Plot_3" class="shiny-plot-output shiny-bound-output" style="width: 100% ; height: 400px"></div>
+          <div id="Plot_4" class="shiny-plot-output shiny-bound-output" style="width: 100% ; height: 400px"></div>
+        </div>
+      </div>
+      <div class="tab-pane" data-value="詩人間的關聯性" id="tab-6904-5">
+        <h1>詩人間的關聯性</h1>
+        <div class="col-sm-4">
+          <form class="well">
+            <h4>使用PCA及K-means分群，我們可以將風格類似的詩人們分群</h4>
+            <div class="form-group shiny-input-container">
+              <label for="k1">Number of k:</label>
+              <input id="k1" type="number" class="form-control shiny-bound-input" value="5" min="1" max="74">
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-8">
+          <div id="Plotly_KM1" style="width:100%; height:400px; " class="plotly html-widget html-widget-output shiny-report-size shiny-bound-output"></div>
+        </div>
+      </div>
+      <div class="tab-pane" data-value="類別間的關聯性" id="tab-6904-6">
+        <h1>詩作類別間的關聯性</h1>
+        <div class="col-sm-4">
+          <form class="well">
+            <h4>使用PCA及K-means分群，我們可以將相似的詩作類型分群</h4>
+            <div class="form-group shiny-input-container">
+              <label for="k2">Number of k:</label>
+              <input id="k2" type="number" class="form-control shiny-bound-input" value="10" min="1" max="27">
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-8">
+          <div id="Plotly_KM2" style="width:100%; height:400px; " class="plotly html-widget html-widget-output shiny-report-size shiny-bound-output"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body></html>

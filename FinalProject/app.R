@@ -22,7 +22,7 @@ library(plotly)
 ##Program ==================================================================
 
 # 讀檔
-dta <- read.csv(file = "./data/tang300/tang300_utf-8.csv", fileEncoding = "UTF-8",
+dta <- read.csv(file = "data/tang300/tang300_utf-8.csv", fileEncoding = "UTF-8",
                 stringsAsFactors=F)
 #轉成類別型態
 dta[,'author'] = as.factor(dta[,'author'])
