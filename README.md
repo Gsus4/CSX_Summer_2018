@@ -51,4 +51,4 @@
 - [TFIDF_PCA_K-means](https://gsus4.github.io/CSX_Summer_2018/Week_3/TFIDF_PCA_Kmeans/TFIDF_PCA_Kmeans.html)
 
 ## Final Project
-- [唐詩分析](https://gsus4.github.io/CSX_Summer_2018/FinalProject/唐詩分析.html)
+-
